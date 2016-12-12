@@ -1,9 +1,9 @@
-var images = {};
+ var images = {};
 
 loadImage("leftArm");
 loadImage("legs");
 loadImage("torso");
-loadImage("rightArm");
+loadImage("github.com/LDPJ/create/Right Arm.png");  
 loadImage("head");
 loadImage("hair");
 
