@@ -1,11 +1,12 @@
  var images = {};
 
-loadImage("leftArm");
-loadImage("legs");
-loadImage("torso");
-loadImage("github.com/LDPJ/create/Right Arm.png");  
-loadImage("head");
-loadImage("hair");
+loadImage("ldpj.github.io/create/AstroboyLeftArm.png");
+loadImage("ldpj.github.io/create/AstroboyLegs.png");
+loadImage("ldpj.github.io/create/AstroboyTorso.png");
+loadImage("ldpj.github.io/create/AstroboyTorsoTransparent.png");
+loadImage("ldpj.github.io/create/AstroboyRightArm.png");  
+loadImage("ldpj.github.io/create/AstroboyHead.png");
+loadImage("ldpj.github.io/create/AstroboyHair.png");
 
 function loadImage(name) {
 
@@ -14,4 +15,16 @@ function loadImage(name) {
       resourceLoaded();
   }
   images[name].src = "images/" + name + ".png";
+}
+
+var totalResources = 6;
+var numResourcesLoaded = 0;
+var fps = 30;
+
+function resourceLoaded() {
+
+  numResourcesLoaded += 1;
+  if(numResourcesLoaded === totalResources) {
+    setInterval(redraw, 1000 / fps);
+  }
 }
