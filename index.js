@@ -1,11 +1,11 @@
 /* Object created to hold image references. */ 
 var images = {};
 
-loadImage("ldpj.github.io/create/AstroboyLeftArm.png");
+loadImage("ldpj.github.io/create/AstroboyLeft Arm.png");
 loadImage("ldpj.github.io/create/AstroboyLegs.png");
 loadImage("ldpj.github.io/create/AstroboyTorso.png");
 loadImage("ldpj.github.io/create/AstroboyTorsoTransparent.png");
-loadImage("ldpj.github.io/create/AstroboyRightArm.png");  
+loadImage("ldpj.github.io/create/AstroboyRight Arm.png");  
 loadImage("ldpj.github.io/create/AstroboyHead.png");
 loadImage("ldpj.github.io/create/AstroboyHair.png");
 
@@ -48,10 +48,10 @@ function redraw() {
 
   canvas.width = canvas.width; // clears the canvas 
                       
-  context.drawImage(images["AstroboyLeftArm"], x + 40, y - 42);
+  context.drawImage(images["AstroboyLeft Arm"], x + 40, y - 42);
   context.drawImage(images["AstroboyLegs"], x, y);
   context.drawImage(images["AstroboyTorso"], x, y - 50);
-  context.drawImage(images["AstroboyRightArm"], x - 15, y - 42);
+  context.drawImage(images["AstroboyRight Arm"], x - 15, y - 42);
   context.drawImage(images["AstroboyHead"], x - 10, y - 125);
   context.drawImage(images["AstroboyHair"], x - 37, y - 138);
 }
