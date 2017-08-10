@@ -21,7 +21,7 @@ function loadImage(name) {
 /* Variables to track the image load process.  
 During the redraw process the canvas will be cleared and all the parts will be redrawn farthest away. */
 
-var totalResources = 6;
+var totalResources = 7;
 var numResourcesLoaded = 0;
 var fps = 30;
 
