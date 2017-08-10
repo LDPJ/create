@@ -1,3 +1,6 @@
+
+
+
 /* Object created to hold image references. */ 
 var images = {};
 
