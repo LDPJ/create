@@ -1,13 +1,13 @@
 /* Object created to hold image references. */ 
 var images = {};
 
-loadImage("https://ldpj.github.io/create/AstroboyLeftArm.png");
-loadImage("https://ldpj.github.io/create/AstroboyLegs.png");
-loadImage("https://ldpj.github.io/create/AstroboyTorso.png");
-loadImage("https://ldpj.github.io/create/AstroboyTorsoTransparent.png");
-loadImage("https://ldpj.github.io/create/AstroboyRightArm.png");  
-loadImage("https://ldpj.github.io/create/AstroboyHead.png");
-loadImage("https://ldpj.github.io/create/AstroboyHair.png");
+loadImage("ldpj.github.io/create/AstroboyLeftArm.png");
+loadImage("ldpj.github.io/create/AstroboyLegs.png");
+loadImage("ldpj.github.io/create/AstroboyTorso.png");
+loadImage("ldpj.github.io/create/AstroboyTorsoTransparent.png");
+loadImage("ldpj.github.io/create/AstroboyRightArm.png");  
+loadImage("ldpj.github.io/create/AstroboyHead.png");
+loadImage("ldpj.github.io/create/AstroboyHair.png");
 
 function loadImage(name) {
 
